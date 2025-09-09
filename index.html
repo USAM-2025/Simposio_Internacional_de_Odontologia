@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Simposio Internacional de Medicina</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h1></h1>
+        <p class="subtitle"></p>
+      </div>
+    </header>
+
+    <div class="container">
+      <!-- Sección de Introducción -->
+      <section class="intro-section">
+        <div class="container">
+          <div class="intro-content">
+            <div class="intro-text">
+              <h2>
+                Simposio Internacional de Investigación Odontológica Estudiantil
+              </h2>
+              <p>
+                La Facultad de Cirugía Dental de la Universidad Salvadoreña
+                Alberto Masferrer, como parte de sus procesos de mejora
+                continua, buscando que sus estudiantes y docentes participen en
+                eventos internacionales de investigación, ha creado el simposio
+                internacional de investigación odontológica estudiantil que, en
+                su primera edición, contará con la participación de tres
+                facultades de odontología salvadoreña y tres extranjeras.
+              </p>
+              <p>
+                Este evento está planeado realizarlo anualmente, de manera que
+                sirva de vitrina para que estudiantes activos y egresados
+                participen en un simposio que les permita difundir los
+                resultados de sus procesos investigativos con lo que estarán en
+                contacto con pares y teniendo la oportunidad de crear redes
+                estudiantiles y posteriormente profesionales.
+              </p>
+              <p>
+                En los últimos años la internacionalización se ha unido a los
+                tres pilares tradicionales que sustentan la Educación Superior
+                en El Salvador (Docencia, Proyección social e Investigación); de
+                manera que con este simposio se une la investigación-docencia
+                con la internacionalización.
+              </p>
+
+              <div class="info-grid">
+                <div class="info-column">
+                  <h3>Las modalidades de presentación serán:</h3>
+                  <ul>
+                    <li>Presentación Oral</li>
+                    <li>Poster o Cartel científico</li>
+                  </ul>
+                </div>
+                <div class="info-column">
+                  <h3>Los tipos de investigación serán:</h3>
+                  <ul>
+                    <li>Revisiones de bibliografías</li>
+                    <li>Investigaciones de campo</li>
+                    <li>Reporte de caso</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="diploma-notice">
+                <h3>Se entregará diploma de participación</h3>
+              </div>
+            </div>
+
+            <div class="tooth-character">
+              <div class="tooth-container">
+                <div class="tooth">
+                  <div class="tooth-face">
+                    <div class="tooth-eyes">
+                      <div class="eye left-eye"></div>
+                      <div class="eye right-eye"></div>
+                    </div>
+                    <div class="tooth-mouth"></div>
+                  </div>
+                  <div class="tooth-crown">
+                    <div class="tooth-surface"></div>
+                    <div class="tooth-detail"></div>
+                  </div>
+                  <div class="tooth-root">
+                    <div class="root root-left"></div>
+                    <div class="root root-right"></div>
+                  </div>
+                </div>
+                <div class="tooth-shadow"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Sección de Cronómetro -->
+      <div class="countdown-section">
+        <h2>FALTAN</h2>
+        <div class="countdown-container">
+          <div class="countdown-item">
+            <span id="days" class="countdown-value">00</span>
+            <span class="countdown-label"><b>Días</b></span>
+          </div>
+          <div class="countdown-item">
+            <span id="hours" class="countdown-value">00</span>
+            <span class="countdown-label"><b>Horas</b></span>
+          </div>
+          <div class="countdown-item">
+            <span id="minutes" class="countdown-value">00</span>
+            <span class="countdown-label"><b>Minutos</b></span>
+          </div>
+          <div class="countdown-item">
+            <span id="seconds" class="countdown-value">00</span>
+            <span class="countdown-label"><b>Segundos</b></span>
+          </div>
+        </div>
+        <span class="countdown-label"
+          ><b
+            >1er Simposio Internacional de Investigación Odontológica
+            Estudiantil</b
+          ></span
+        >
+        <p class="countdown-date">
+          <b>Jueves, 18 de septiembre a las 8:00 AM</b>
+        </p>
+      </div>
+
+      <!-- Sección de Programación en PDF -->
+      <div class="program-section">
+        <h2>Programación del Evento</h2>
+        <p class="program-description">
+          Descarga el programa completo con todos los horarios, ponentes y
+          actividades planificadas para el simposio.
+        </p>
+        <a href="pdf/programacion_simposio.pdf" class="download-btn" download>
+          Descargar Programación (PDF)
+        </a>
+      </div>
+
+      <h2 class="banners">Post Digitales de Participantes</h2>
+      <div class="universities-grid" id="universities-container">
+        <!-- Los botones se generarán dinámicamente con JavaScript -->
+      </div>
+
+      <!-- Carrusel de Participantes -->
+      <div class="carousel-section">
+        <h2>Nuestros Participantes</h2>
+        <div class="carousel-container">
+          <div class="carousel-slide" id="carousel-slide">
+            <!-- Las imágenes se cargarán dinámicamente con JavaScript -->
+          </div>
+          <button class="carousel-control prev" id="prev-btn">&#10094;</button>
+          <button class="carousel-control next" id="next-btn">&#10095;</button>
+          <div class="carousel-dots" id="carousel-dots">
+            <!-- Los puntos de navegación se generarán dinámicamente -->
+          </div>
+        </div>
+      </div>
+
+      <!-- Sección de Frases Destacadas -->
+      <div class="quotes-section">
+        <h2>Destacados</h2>
+        <div class="quotes-grid">
+          <p>Este espacio estará disponible, después del día del evento.</p>
+          <!-- <div class="quote-card">
+            <div class="quote-content">
+              <img src="" alt="Dr." class="speaker-photo" />
+              <div>
+                <p class="quote-text">
+                  "La innovación en medicina no es solo tecnología, es
+                  comprender mejor las necesidades humanas."
+                </p>
+              </div>
+            </div>
+            <p class="quote-author">Dr. Carlos Méndez</p>
+            <p class="quote-topic">Innovación en tratamientos médicos</p>
+          </div>
+          <div class="quote-card">
+            <div class="quote-content">
+              <img src="" alt="Dra." class="speaker-photo" />
+              <div>
+                <p class="quote-text">
+                  "El futuro de la salud global dependerá de nuestra capacidad
+                  para colaborar beyond fronteras."
+                </p>
+              </div>
+            </div>
+            <p class="quote-author">Dra. Laura Vélez</p>
+            <p class="quote-topic">Salud global y cooperación internacional</p>
+          </div>
+          <div class="quote-card">
+            <div class="quote-content">
+              <img src="" alt="Dr." class="speaker-photo" />
+              <div>
+                <p class="quote-text">
+                  "La medicina personalizada está revolucionando cómo abordamos
+                  enfermedades complejas."
+                </p>
+              </div>
+            </div>
+            <p class="quote-author">Dr. Ricardo Juárez</p>
+            <p class="quote-topic">Avances en medicina genómica</p>
+          </div> -->
+        </div>
+      </div>
+
+      <div class="thanks-section">
+        <h2>Agradecimiento</h2>
+        <div class="thanks-content">
+          <p class="thanks-text">
+            Agradecemos profundamente a todas las universidades participantes
+            por su contribución a este simposio y por compartir sus
+            investigaciones y conocimientos con nuestra comunidad médica.
+          </p>
+
+          <!-- Logo USAM -->
+          <img
+            src="img/logo-USAM.jpg"
+            alt="Logo de la Universidad"
+            class="university-logo"
+          />
+        </div>
+      </div>
+    </div>
+
+    <div id="banner-modal" class="modal">
+      <div class="modal-content">
+        <span class="close-btn">&times;</span>
+        <h2 class="banner-title" id="modal-title">Universidad</h2>
+        <img class="banner-img" id="modal-image" src="" alt="Banner" />
+      </div>
+    </div>
+
+    <footer>
+      <div class="container">
+        <p>
+          Simposio Internacional de Medicina © 2025 - Universidad Salvadoreña
+          Alberto Masferrer
+        </p>
+      </div>
+    </footer>
+
+    <script src="js/functions.js"></script>
+  </body>
+</html>
